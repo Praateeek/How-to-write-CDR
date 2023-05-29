@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  /* width: 100%; */
+  background-image: url(image/background.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+  background-repeat: no-repeat;
+}
+.navbar {
+  background-color: rgba(115, 3, 192, 1);
+}
+.navbar a {
+  /* width: 68px;
+  height: 34px; */
+
+  /* font-family: Nunito; */
+  /* font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 34px; */
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.btn {
+  background-color: #f9f9f9 !important;
+}
+.bttn-text {
+  margin-top: 3rem;
+}
+.bttn-text .btn-1 {
+  padding: 0.5rem 3.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid white;
+}
+.bttn-text .btn-2 {
+  border: 1px solid white;
+}
+
+.text h1 {
+  /* position: absolute;
+  width: 430px;
+  height: 59px;
+  left: 126px;
+  top: 171px; */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+
+  /* identical to box height */
+
+  color: #f9f9f9;
+}
+
+.text span {
+  /* position: absolute;
+  width: 411px;
+  height: 59px;
+  left: 126px;
+  top: 221px; */
+
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 43px;
+  line-height: 59px;
+}
+.text p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-top: 1rem;
+}
+.justify-content-end .card {
+  background-color: #7303c0 !important;
+
+  padding: 1.5rem 2rem;
+  margin-top: 5rem;
+  box-shadow: 5px 15px 40px #7303c0;
+  border-radius: 0.5rem;
+  border: 1px solid #00000021;
+
+  border-radius: 9%;
+}
+
+.form-container h5 {
+  color: #ffffff;
+}
+.form-container p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+.form-group {
+  padding: 20px;
+}
+
+.form-container h1 {
+  color: white;
+  padding: 11px;
+  height: 80px;
+}
+
+.form-container p {
+  color: white;
+  padding: 5px;
+}
+/* .form-group input {
+  padding: 11px;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+} */
+.form-control {
+  width: 100%;
+}
+
+.btn-2 {
+  background-color: #7303c0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 3.5rem;
+  color: white;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 0.5rem;
+}
+
+.btttn {
+  background-color: #ffffff;
+  border: 1px solid#ffffff;
+  border-radius: 0.5rem;
+  width: 50%;
+  margin-left: 60px;
+  text-align: center;
+}
+.Services {
+  position: relative;
+}
+.Services h2 {
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  top: 15%;
+}
+.Services .card {
+  color: black;
+  margin-top: 8rem;
+}
+.Services .card .card-body {
+  padding: 10rem 1rem 2rem;
+
+  text-align: justify;
+}
+.Services .card .card-body h5 {
+  text-align: center;
+  margin: 0 0 1rem;
+}
