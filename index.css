@@ -14,18 +14,45 @@ video {
   max-width: 100%;
   height: auto;
 }
+section:not(:first-child) {
+  padding: 2rem 0;
+}
+@media (min-width: 768px) {
+  .header {
+    /* width: 100%; */
+    background-image: url(image/background.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+  }
 
-.header {
-  /* width: 100%; */
-  background-image: url(image/background.png);
-  background-position: center;
-  background-size: cover;
-  margin-right: 20px;
-  background-repeat: no-repeat;
+  .navbar {
+    background: linear-gradient(
+      to right,
+      rgba(115, 3, 192, 1) 98.5%,
+      #fff 98.5%
+    );
+  }
+  .text p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+    padding-top: 1rem;
+  }
+  .text h1 {
+    color: #f9f9f9;
+  }
 }
 .navbar {
   background-color: rgba(115, 3, 192, 1);
 }
+
+.navbar-toggler {
+  background-color: #0000005e !important;
+}
+
 .navbar a {
   /* width: 68px;
   height: 34px; */
@@ -41,6 +68,9 @@ video {
 }
 .btn {
   background-color: #f9f9f9 !important;
+  border: 1px solid black !important;
+  border-radius: 0.5rem !important;
+  margin-top: 12px;
 }
 .bttn-text {
   margin-top: 3rem;
@@ -53,6 +83,13 @@ video {
 .bttn-text .btn-2 {
   border: 1px solid white;
 }
+.navbar-nav img {
+  /* position: absolute;
+  top: 1.7rem;
+  left: 7rem;
+  width: 1.5%; */
+  height: 14px;
+}
 
 .text h1 {
   /* position: absolute;
@@ -61,14 +98,13 @@ video {
   left: 126px;
   top: 171px; */
 
-  font-family: "Nunito";
   font-style: normal;
   font-weight: 500;
   font-size: 43px;
 
   /* identical to box height */
 
-  color: #f9f9f9;
+  color: #fff;
 }
 
 .text span {
@@ -88,7 +124,7 @@ video {
   font-weight: 500;
   font-size: 18px;
   line-height: 30px;
-  color: #ffffff;
+  color: #000;
   padding-top: 1rem;
 }
 .justify-content-end .card {
@@ -178,4 +214,66 @@ textarea {
 .Services .card .card-body h5 {
   text-align: center;
   margin: 0 0 1rem;
+}
+.foot-1 {
+  background-color: #790252;
+  /* position: absolute; */
+  padding: 20px;
+}
+
+.foot-1 h3 {
+  text-align: center;
+  color: #ffffff;
+  margin: 1rem;
+}
+.foot-1 p {
+  text-align: center;
+  color: #ffffff;
+}
+.btn-f-1 {
+  background-color: #7303c0;
+  border: 1px solid #ffffff;
+  color: #ffff;
+  border-radius: 0.5rem;
+  padding: 10px;
+  text-align: center;
+  /* margin-left: 38%; */
+  width: 310px;
+}
+
+.foot-2 {
+  background-color: #49bbdb;
+  /* position: absolute; */
+  padding: 20px;
+}
+
+.foot-2 h3 {
+  text-align: center;
+  color: #ffffff;
+  margin: 1rem;
+}
+.foot-2 p {
+  text-align: center;
+  color: #ffffff;
+}
+.btn-f-1 {
+  background-color: #7303c0;
+  border: 1px solid #ffffff;
+  color: #ffff;
+  border-radius: 0.5rem;
+  padding: 10px;
+  text-align: center;
+  /* margin-left: 38%; */
+  width: 310px;
+}
+
+.row {
+  padding-top: 5%;
+  position: relative;
+}
+
+.Polygon-1 {
+  position: absolute;
+  top: 30px;
+  right: 20px;
 }

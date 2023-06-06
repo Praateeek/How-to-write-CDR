@@ -20,10 +20,93 @@
     <title>How to Write CDR</title>
   </head>
   <body>
-    <section class="header">
-      <div class="continer">
-        <div id="menu">
-          <div class="bar">
+    <main id="hero">
+      <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler "
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mx-auto gap-lg-5">
+                <li>
+                <a
+                  
+                  href="#" class="d-flex nav-link gap-1 align-items-center" 
+                  ><img src="image/Vector.png" alt="" />
+                  HWC</a
+                ></li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <!-- <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Dropdown
+                  </a>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="navbarDropdown"
+                  > -->
+                <li><a class="nav-link" href="#">About US</a></li>
+                <li>
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+
+                <li>
+                  <a class="nav-link" href="#">Contact US</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Blogs</a>
+                </li>
+                <!-- </ul> -->
+                <button class="btn" type="submit">+61480 005 454</button>
+                <!-- <li class="nav-item">
+                  <a
+                    class="nav-link disabled"
+                    href="#"
+                    tabindex="-1"
+                    aria-disabled="true"
+                    >Disabled</a
+                  >
+                </li> -->
+              </ul>
+              <form class="d-flex">
+                <!-- <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                /> -->
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <div class="header">
+      
             <!-- <i
               class="fa-solid fa-bars"
               style="color: #ffffff"
@@ -31,82 +114,7 @@
             ></i>
           </div> -->
 
-            <nav class="navbar navbar-expand-lg">
-              <div class="container-fluid">
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse"
-                  id="navbarSupportedContent"
-                >
-                  <ul class="navbar-nav mx-auto gap-lg-5">
-                    <a class="navbar-brand" href="#">HWC</a>
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#"
-                        >Home</a
-                      >
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Services</a>
-                    </li>
-                    <!-- <li class="nav-item dropdown">
-                      <a
-                        class="nav-link dropdown-toggle"
-                        href="#"
-                        id="navbarDropdown"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        Dropdown
-                      </a>
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="navbarDropdown"
-                      > -->
-                    <li><a class="nav-link" href="#">About US</a></li>
-                    <li>
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-
-                    <li>
-                      <a class="nav-link" href="#">Contact US</a>
-                    </li>
-                    <li>
-                      <a class="nav-link" href="#">Blogs</a>
-                    </li>
-                    <!-- </ul> -->
-                    <button class="btn" type="submit">+61480 005 454</button>
-                    <!-- <li class="nav-item">
-                      <a
-                        class="nav-link disabled"
-                        href="#"
-                        tabindex="-1"
-                        aria-disabled="true"
-                        >Disabled</a
-                      >
-                    </li> -->
-                  </ul>
-                  <form class="d-flex">
-                    <!-- <input
-                      class="form-control me-2"
-                      type="search"
-                      placeholder="Search"
-                      aria-label="Search"
-                    /> -->
-                  </form>
-                </div>
-              </div>
-            </nav>
+           
             <div class="container">
               <div class="row align-items-center justify-content-center">
                 <div class="col-12 col-lg-5">
@@ -144,6 +152,17 @@
                               name="name"
                               class="form-control"
                               placeholder="Name*"
+                              required
+                            />
+                          </div>
+                          <div class="form-group">
+                            <!-- <label for="name">Name </label> -->
+                            <input
+                              type="text"
+                              id="name"
+                              name="name"
+                              class="form-control"
+                              placeholder="Phone Number*"
                               required
                             />
                           </div>
@@ -224,17 +243,191 @@
           </div>
         </div>
       </div>
-    </section>
+    </div>
+   
     <section>
-      <div class="container mt-5">
-        <!-- <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-          consequatur consequuntur dicta ratione magni dolores vero suscipit
-          recusandae hic voluptate placeat fuga incidunt, assumenda sed
-          similique repellendus! Adipisci, minus! Itaque.
-        </p> -->
+      <div class="foot-1">
+        <h3>ANY QUERIES?</h3>
+        <p>
+          We are always here to assist you If you have any confusion then feel
+          free to contact our friendly team.
+        </p>
+        <div class="text-center">
+        <button type="button" class="btn-f-1">Chat With Our Agent</button></div>
       </div>
+
+      <section>
+       <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h3>WHAT IS CDR ENGINEERS AUSTRALIA?</h3>
+            <p>A CDR report is used to determine whether your skill level satisfies the Australian
+              requirement. A CDR is essential in order to obtain a skilled migration visa, which is
+              Australian PR. A good CDR must gain a positive evaluation from EA and earn 15 points
+               to
+              be eligible for an Australian visa. Your technical abilities, experience, competency, and
+              language abilities are all evaluated by the EA evaluator. This means that if you are an
+              engineer from any country and want to migrate to Australia, you must apply through the
+              CDR Engineers Australia process.</p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img src="image/Rectangle 38.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <img src="image/Rectangle 38.png" alt="">
+          </div>
+          
+          <div class="col-12 col-lg-6">
+            <h3>WHAT IS CDR ENGINEERS AUSTRALIA?</h3>
+            <p>A CDR report is used to determine whether your skill level satisfies the Australian
+              requirement. A CDR is essential in order to obtain a skilled migration visa, which is
+              Australian PR. A good CDR must gain a positive evaluation from EA and earn 15 points
+               to
+              be eligible for an Australian visa. Your technical abilities, experience, competency, and
+              language abilities are all evaluated by the EA evaluator. This means that if you are an
+              engineer from any country and want to migrate to Australia, you must apply through the
+              CDR Engineers Australia process.</p>
+          </div>
+          <div class="Polygon-1">
+            <img src="image/Polygon 1.png" alt="">
+          </div>
+          <!-- <div class="col-12 col-lg-6">
+            <img src="image/Rectangle 38.png" alt="">
+          </div> -->
+        </div>
+        </div>
+      </section>
+
+      
+       </div>
+        <div class="foot-2">
+          <h3>ANY QUERIES?</h3>
+          <p>
+            We are always here to assist you If you have any confusion then feel
+            free to contact our friendly team.
+          </p>
+          <div class="text-center">
+          <button type="button" class="btn-f-1">Chat With Our Agent</button></div>
+        </div>
+      </section>
+     <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h3>WHO NEEDS TO PREPARE A CDR ENGINEERS
+              AUSTRALIA?</h3>
+            <p>Engineers who seek to immigrate to Australia must do so through one of the EA's four occupational categories for Skilled Migration. Each occupational group has its own set of specifications. If you fall into any of these categories, you are eligible to work in Australia.
+              <!-- Professional Engineers
+              Engineering Technologist
+              Engineering Associate
+              Engineering manager -->
+              <ul>
+                <li>Professional Engineers</li>
+                <li> Engineering Technologist</li>
+                <li>Engineering Associate</li>
+                <li>Engineering manager</li>
+                
+              </ul>
+              <p>Engineers Australia verifies and evaluates the CDR Report extensively. Engineers Australia is the assessing body of the Engineers who want to get them registered in Australia. Engineers Australia also known as The Institution of Engineers Australia, IEAust or EA. Engineering Australia is a professional body and non-profit organization dedicated to serving as Australia's national platform for the development of the engineering discipline, and it is a signatory to the Washington Accord.</p>
+            </p>
+          </div>
+          <div class="col-12 col-lg-6">
+            <img src="image/Rectangle 40.png" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <img src="image/Rectangle 41.png" alt="">
+          </div>
+          
+          <div class="col-12 col-lg-6">
+            <h3>HOW TO WRITE A CDR ON YOUR OWN?</h3>
+            <p>To write your own CDR is a tough job. The smart choice is to leave this process to an expert. But, if you want to write your own CDR, then here are some points and formats you should follow.
+
+              Understand the basic requirements: Familiarize yourself with the integrities outlined in the ,MSA (Migration skills Assessment )Booklet. The booklet is updated anytime the EA adds or changes the information. It is critical to comprehend these requirements.
+              
+              Be specific on what you are applying for: Determine the engineering position for which you are applying. You'll be able to write the text accordingly this way. For example, if you believe you are qualified for an Engineering Associate position, go over the major strengths necessary and concentrate on conveying important information.</p>
+          </div>
+     </section>
+     <div class="foot-1">
+      <h3>ANY QUERIES?</h3>
+      <p>
+        We are always here to assist you If you have any confusion then feel
+        free to contact our friendly team.
+      </p>
+      <div class="text-center">
+      <button type="button" class="btn-f-1">Chat With Our Agent</button></div>
+    </div>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <h3>THINGS TO INCLUDE IN YOUR CDR FOR ENGINEERS AUSTRALIA</h3>
+            <p>
+              <ul>
+                <li>Follow all the guidelines provided by Engineers Australia. Keep only the details asked by EA. For example, include what you did in the project and not everything the group did.</li>
+                 <li>Write Career Episode in first person perspective.</li>
+                 <li> Select the relevant category in Career Episode.</li>
+                 <li>Use Australian English.</li>
+                 <li>Your content should be original. If plagiarism is found then you can be banned from 12 to 36 months.</li>
+                 <li>Do not fake your document. Prepare evidence and documentation to back up every claim you achieved.</li>
+                 <li>Your summary statement should connect the elements to the appropriate paragraphs in the career episodes.</li>
+              </ul>
+            </p>
+
+            
+          </div>
+          <div class="ellipse col-12 col-lg-6">
+          <div class="col-12 col-lg-6">
+            <!-- <img src="image/Ellipse 5.png" alt=""> -->
+          </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <!-- <img src="image/Arrow 7.png 38.png" alt=""> -->
+          </div>
+          
+          <div class="col-12 col-lg-6">
+            <h3>WHAT ARE THE DOCUMENTS YOU NEED TO SUBMIT WITH THE CDR REPORT?</h3>
+            <p>
+              Now, going into the final phase of learning how to write a CDR for Engineers Australia. We will discuss the documents that must be included and provided to Engineers Australia.
+              <!-- The necessary identifying documents, such as a recent passport (page including photo and name).
+Copy of your CV or resume, both original and scanned.
+Collection of all official academic degree certificates.
+English language test score sheet (IELTS, TOEFL, PEARSON PTE).
+Original scans of any confirmation, promotion, or experience letters from your prior organizations' supervisors/managers.
+Documentation for name changes (if applicable).
+Certificate of Professional Registration (if applicable).
+Scanned copies of your pay slips, bank accounts, and tax returns to support your salary claims.
+Where applicable, official English language translations of the aforementioned papers. -->
+             <ul>
+              <li>The necessary identifying documents, such as a recent passport (page including photo and name)</li>
+              <li>Copy of  your CV or resume, both original and scanned.</li>
+              <li>Collection of all official academic degree certificates.</li>
+              <li>English language test score sheet (IELTS, TOEFL, PEARSON PTE).</li>
+              <li>Original scans of any confirmation, promotion, or experience letters from your prior organizations' supervisors/managers.</li>
+               <li>Documentation for name changes (if applicable)</li>
+               <li>Certificate of Professional Registration (if applicable).</li>
+               <li>Where applicable, official English language translations of the aforementioned papers.</li>
+               
+            </ul>
+            </p>
+          </div>
     </section>
+    <div class="foot-2">
+      <h3>ANY QUERIES?</h3>
+      <p>
+        We are always here to assist you If you have any confusion then feel
+        free to contact our friendly team.
+      </p>
+      <div class="text-center">
+      <button type="button" class="btn-f-1">Chat With Our Agent</button></div>
+    </div>
+    </main>
   </body>
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
